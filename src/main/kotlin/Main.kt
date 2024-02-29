@@ -373,7 +373,7 @@ class ViewModel(val coroutineScope: CoroutineScope) {
                     )
                 }
 
-                listStateFlow.value = emojiList ?: listOf()
+                listStateFlow.value = emojiList
             }
         }
     }
